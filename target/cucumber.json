@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check if right category is shown for a product",
+        "description": "",
+        "id": "loginfeature;check-if-right-category-is-shown-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6539953700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens the browser",
+            "match": {
+              "location": "LoginStep.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3133008000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigates to flipkart product page",
+            "match": {
+              "location": "LoginStep.goToProductPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185666700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search for a product",
+            "match": {
+              "location": "LoginStep.searchProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669926700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "right category is shown",
+            "match": {
+              "location": "LoginStep.checkCategory()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
